@@ -5,7 +5,14 @@
         <div class="logo">
             <img src="{% static "blog/img/logo.png" %}" alt="">
         </div>
-       
+
+        <form action="/search" class="search-form" id="search" name="search" for="search">
+            <input type="text" name="search" placeholder="Search">
+            <button type="submit" class="search-button">
+                <i class="fa fa-search"></i>
+            </button>
+        </form>
+ 
         <ul class="main-nav-list">
             {% with url_name=request.resolver_match.url_name %}
             <li><a class="main-nav-link home {% if url_name == 'index' %}btn-cta{% endif %} " href="{% url "index" %}">home</a></li>

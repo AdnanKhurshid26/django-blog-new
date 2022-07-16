@@ -144,6 +144,41 @@ nav {
 }
 
 
+/****Search Bar****/
+
+.search-form {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vw;
+    height: 100%;
+}
+
+.search-form input {
+    width: 100%;
+    height: 2.5vw;
+    border: solid 1px #252525;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+    font-size: 1.2vw
+}
+
+.search-button {
+    margin-top: 0;
+    height: 2.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.1s;
+}
+
+
 /***************** BURGER MENU *********************/
 
 .burger {
@@ -162,13 +197,13 @@ nav {
 .fa-bars {
     color: white;
     font-size: 8vw;
-    transition: all 0.5s;
+    transition: all 0.2s;
 }
 
 .fa-times {
     color: #fff;
     font-size: 8vw;
-    transition: all 0.5s;
+    transition: all 0.2s;
 }
 
 .backdrop {
@@ -182,7 +217,7 @@ nav {
 
 .overlay {
     background-color: rgba(0, 0, 0, 0.514);
-    transition: all 0.5s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .recent-posts {
@@ -221,7 +256,7 @@ nav {
 
 .card:hover {
     background-color: #000;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .card img {
@@ -496,7 +531,7 @@ button:hover {
         padding-top: 10vh;
         width: 60%;
         transform: translateX(100%);
-        transition: transform 0.5s ease-in-out;
+        transition: transform 0.2s ease-in-out;
         z-index: 10;
     }
     /* .main-nav-link {
@@ -546,7 +581,7 @@ button:hover {
         transform: scale(1.05);
     }
     .logo img {
-        height: 9vw;
+        height: 4vw;
     }
     .recent-posts h2 {
         font-size: 7vw;
@@ -563,7 +598,7 @@ button:hover {
     }
     .card:hover {
         background-color: #000;
-        transition: 0.5s;
+        transition: 0.2s;
     }
     .card img {
         width: 100%;
@@ -664,5 +699,22 @@ button:hover {
     }
     .post-height-fix {
         height: 8vw;
+    }
+    /****Search Bar****/
+    .search-form {
+        width: 60%;
+        gap: 2vw;
+    }
+    .search-form input {
+        height: 7vw;
+        font-size: 4.2vw
+    }
+    .search-button {
+        margin-top: 0;
+        height: 6.5vw;
+        width: 6.5vw;
+    }
+    .fa-search {
+        font-size: 3vw;
     }
 }
