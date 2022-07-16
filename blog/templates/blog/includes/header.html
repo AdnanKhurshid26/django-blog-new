@@ -6,8 +6,10 @@
             <img src="{% static "blog/img/logo.png" %}" alt="">
         </div>
 
-        <form action="/search" class="search-form" id="search" name="search" for="search">
-            <input type="text" name="search" placeholder="Search">
+        <form action="/search" class="search-form"  method="POST" id="search" name="search" for="search">
+            
+            <input type="text" name="search-text" placeholder="Search">
+            {% csrf_token %}
             <button type="submit" class="search-button">
                 <i class="fa fa-search"></i>
             </button>

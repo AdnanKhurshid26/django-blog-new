@@ -115,3 +115,11 @@ def handleLogout(request):
    logout(request)
    messages.success(request,"You have successfully logged out")
    return HttpResponseRedirect(request.META.get('HTTP_REFERER'))
+
+def search(request):
+       if request.method == "POST":
+              search_text = request.POST["search-text"]
+              posts = Post.objects.filter(title__icontains=search_text)
+              return render(request,"blog/search.html",{"posts":posts,"search_text":search_text})
+       else:
+              return HttpResponseBadRequest()
