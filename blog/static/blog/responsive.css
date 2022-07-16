@@ -177,11 +177,14 @@
         font-size: 4.2vw;
         margin-bottom: 1.5vw;
     }
+    .social-links {
+        gap: 5vw;
+    }
     .bottom {
         padding: 1.5vw;
     }
     .bottom p {
-        font-size: 2.2vw;
+        font-size: 3vw;
     }
     .user-tag {
         font-size: 1.8vh;
