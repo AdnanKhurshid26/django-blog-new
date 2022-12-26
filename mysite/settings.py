@@ -25,9 +25,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-ricxc1yis1q*%9nu28(_9=6!ha5!@q@bqj59_h#wye_qjtm=3e'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = getenv('IS_DEVELOPMENT', True)
+DEBUG = False
 
-ALLOWED_HOSTS = [getenv('APP_HOST'),'127.0.0.1',]
+ALLOWED_HOSTS = ['http://multiversalmadness-env.eba-ptgbu5se.ap-south-1.elasticbeanstalk.com/','127.0.0.1',]
 
 
 # Application definition
