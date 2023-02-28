@@ -34,7 +34,7 @@
     {% for comment in comments %}
     <div class="comment">
         <div class="poster">
-            <img src="{% static "blog/img/author.jpg" %}" alt="">
+            <img class="except" src="{% static "blog/img/author.jpg" %}" alt="">
             <h4>{{comment.user_name}}</h4>
         </div>
         <p>
@@ -62,5 +62,7 @@
 <p class="comment-p">Please Login to post comments</p>
 {% endif %}
 {% include "blog/includes/footer.html" %}
+<script src="{% static "blog/post.js" %}"></script>
 <script src="{% static "blog/script.js" %}"></script>
+
 {% endblock content %}

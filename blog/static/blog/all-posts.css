@@ -86,18 +86,18 @@ nav {
 
 .main-nav-link:hover,
 .main-nav-link:active {
-    color: #D0021B;
+    color: #0271DC;
 }
 
 .btn-cta:visited,
 .btn-cta:link {
-    color: #D0021B;
-    border-bottom: solid 2px #D0021B;
+    color: #0271DC;
+    border-bottom: solid 2px #0271DC;
 }
 
 .btn-cta:hover,
 .btn-cta:active {
-    color: #D0021B;
+    color: #0271DC;
 }
 
 
@@ -157,7 +157,7 @@ nav {
 .card h2 {
     font-size: 2vw;
     font-family: "Roboto";
-    color: #D0021B;
+    color: #0271DC;
 }
 
 a p {
@@ -188,7 +188,7 @@ a button {
     margin-top: 2vw;
     border: solid transparent;
     color: white;
-    background-color: #D0021B;
+    background-color: #0271DC;
     padding: 1vw 2vw;
     font-family: "Nunito Sans", sans-serif;
     word-spacing: 5px;
@@ -200,7 +200,7 @@ a button {
 }
 
 button:hover {
-    background-color: #940011;
+    background-color: #005aae;
     transition: 0.3s;
     cursor: pointer;
 }
@@ -219,13 +219,13 @@ button:hover {
 
 .signup {
     background-color: transparent;
-    border: solid 2px #D0021B;
+    border: solid 2px #0271DC;
 }
 
 .signup:hover {
     color: #fff;
     transform: none;
-    background-color: #D0021B;
+    background-color: #0271DC;
     transition: all 0.3s;
 }
 
@@ -280,7 +280,7 @@ button:hover {
     letter-spacing: 1px;
     font-weight: 500;
     color: #252525;
-    border-bottom: solid 2px #D0021B;
+    border-bottom: solid 2px #0271DC;
     padding: 0.5rem;
 }
 
@@ -313,7 +313,7 @@ button:hover {
 }
 
 .close-modal-btn:hover {
-    color: #D0021B;
+    color: #0271DC;
     background-color: transparent;
     transform: none;
     transition: all 0.1s;
@@ -329,7 +329,7 @@ button:hover {
     letter-spacing: 3.2px;
     line-height: 1.1;
     font-family: sans-serif;
-    color: #D0021B;
+    color: #0271DC;
 }
 
 @media screen and (max-width: 800px) {
@@ -391,7 +391,7 @@ button:hover {
         font-size: 5vw;
     }
     button:hover {
-        background-color: #940011;
+        background-color: #005aae;
         transition: 0.3s;
         cursor: pointer;
         transform: scale(1.05);
@@ -452,7 +452,7 @@ button:hover {
     }
     .input-field-signup label {
         font-size: 5vw;
-        border-bottom: solid 2px #D0021B;
+        border-bottom: solid 2px #0271DC;
         padding: 0.5rem;
     }
     .input-field-signup input {

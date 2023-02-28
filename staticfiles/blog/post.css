@@ -15,9 +15,9 @@ body {
     list-style: none;
     text-decoration: none;
     overflow-x: hidden;
-    animation: fadeInAnimation ease 3s;
+    /* animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards; */
 }
 
 @keyframes fadeInAnimation {
@@ -88,18 +88,18 @@ nav {
 
 .main-nav-link:hover,
 .main-nav-link:active {
-    color: #D0021B;
+    color: #0271DC;
 }
 
 .btn-cta:visited,
 .btn-cta:link {
-    color: #D0021B;
-    border-bottom: solid 2px #D0021B;
+    color: #0271DC;
+    border-bottom: solid 2px #0271DC;
 }
 
 .btn-cta:hover,
 .btn-cta:active {
-    color: #D0021B;
+    color: #0271DC;
 }
 
 .user-tag {
@@ -112,9 +112,9 @@ nav {
     letter-spacing: 3.2px;
     line-height: 1.1;
     font-family: sans-serif;
-    color: #D0021B; */
+    color: #0271DC; */
     display: inline-block;
-    color: #D0021B;
+    color: #0271DC;
     font-size: 0.8vw;
     font-weight: 800;
     letter-spacing: 3.2px;
@@ -251,7 +251,7 @@ h1 {
     font-size: 2.4vw;
     font-weight: 600;
     font-family: "Nunito Sans";
-    color: #D0021B;
+    color: #0271DC;
 }
 
 .comments-form label {
@@ -283,13 +283,13 @@ h1 {
     padding: 0.3vw 1.4vw;
     letter-spacing: 2px;
     font-family: "Nunito Sans";
-    background-color: #D0021B;
+    background-color: #0271DC;
     color: white;
     border: solid transparent;
 }
 
 .comments-form button:hover {
-    background-color: #940011;
+    background-color: #005aae;
     cursor: pointer;
     transition: all 0.3s;
 }
@@ -305,7 +305,7 @@ h1 {
 }
 
 .comments h1 {
-    color: #D0021B;
+    color: #0271DC;
     align-self: flex-start;
     margin-bottom: 2vw;
 }
@@ -364,7 +364,7 @@ h6 {
     letter-spacing: 3.2px;
     line-height: 1.1;
     font-family: sans-serif;
-    color: #D0021B;
+    color: #0271DC;
 }
 
 .comment-p {

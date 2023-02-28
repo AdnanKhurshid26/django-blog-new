@@ -23,7 +23,7 @@ class Author(models.Model):
 
 class Post(models.Model):
     title = models.CharField(max_length=250)
-    excerpt = models.CharField(max_length=100,validators=[MinLengthValidator(20, "Excerpt is too short")])
+    excerpt = models.CharField(max_length=500,validators=[MinLengthValidator(20, "Excerpt is too short")])
     image = models.ImageField(upload_to="posts",null=True, blank=True)
     created_on = models.DateTimeField(auto_now_add=True)
     last_modified = models.DateTimeField(auto_now=True)

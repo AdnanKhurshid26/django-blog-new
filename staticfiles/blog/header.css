@@ -45,18 +45,18 @@ nav {
 
 .main-nav-link:hover,
 .main-nav-link:active {
-    color: #D0021B;
+    color: #0271DC;
 }
 
 .btn-cta:visited,
 .btn-cta:link {
-    color: #D0021B;
-    border-bottom: solid 2px #D0021B;
+    color: #0271DC;
+    border-bottom: solid 2px #0271DC;
 }
 
 .btn-cta:hover,
 .btn-cta:active {
-    color: #D0021B;
+    color: #0271DC;
 }
 
 
@@ -115,13 +115,13 @@ nav {
 
 .signup {
     background-color: transparent;
-    border: solid 2px #D0021B;
+    border: solid 2px #0271DC;
 }
 
 .signup:hover {
     color: #fff;
     transform: none;
-    background-color: #D0021B;
+    background-color: #0271DC;
     transition: all 0.3s;
 }
 
@@ -134,7 +134,7 @@ button {
     margin-top: 2vw;
     border: solid transparent;
     color: white;
-    background-color: #D0021B;
+    background-color: #0271DC;
     padding: 1vw 2vw;
     font-family: "Nunito Sans", sans-serif;
     word-spacing: 5px;
@@ -179,5 +179,5 @@ button:hover {
 }
 
 #close-alert:hover {
-    color: #D0021B;
+    color: #0271DC;
 }

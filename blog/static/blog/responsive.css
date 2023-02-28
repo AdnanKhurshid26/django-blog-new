@@ -57,7 +57,7 @@
         font-size: 5vw;
     }
     button:hover {
-        background-color: #940011;
+        background-color: #005aae;
         transition: 0.3s;
         cursor: pointer;
         transform: scale(1.05);
@@ -117,7 +117,7 @@
     }
     .input-field-signup label {
         font-size: 5vw;
-        border-bottom: solid 2px #D0021B;
+        border-bottom: solid 2px #0271DC;
         padding: 0.5rem;
     }
     .input-field-signup input {

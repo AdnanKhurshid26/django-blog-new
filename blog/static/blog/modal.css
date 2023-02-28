@@ -30,7 +30,7 @@
 }
 
 .signup-modal p a {
-    color: #D0021B;
+    color: #0271DC;
 }
 
 .signup-form {
@@ -52,7 +52,7 @@
     letter-spacing: 1px;
     font-weight: 500;
     color: #252525;
-    border-bottom: solid 2px #D0021B;
+    border-bottom: solid 2px #0271DC;
     padding: 0.5rem;
 }
 
@@ -85,7 +85,7 @@
 }
 
 .close-modal-btn:hover {
-    color: #D0021B;
+    color: #0271DC;
     background-color: transparent;
     transform: none;
     transition: all 0.1s;
@@ -115,7 +115,7 @@
     }
     .input-field-signup label {
         font-size: 5vw;
-        border-bottom: solid 2px #D0021B;
+        border-bottom: solid 2px #0271DC;
         padding: 0.5rem;
     }
     .input-field-signup input {
